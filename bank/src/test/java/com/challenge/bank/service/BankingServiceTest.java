@@ -1,15 +1,14 @@
 package com.challenge.bank.service;
 
-import com.challenge.bank.adapter.entity.AccountEntity;
-import com.challenge.bank.adapter.entity.TransactionEntity;
-import com.challenge.bank.adapter.repository.AccountRepository;
-import com.challenge.bank.adapter.repository.CustomerRepository;
-import com.challenge.bank.adapter.repository.TransactionRepository;
-import com.challenge.bank.domain.mapper.AccountMapper;
-import com.challenge.bank.domain.mapper.TransactionMapper;
-import com.challenge.bank.domain.model.Account;
-import com.challenge.bank.domain.model.Transaction;
-import com.challenge.bank.domain.service.BankingService;
+import com.challenge.bank.repository.entity.AccountEntity;
+import com.challenge.bank.repository.entity.TransactionEntity;
+import com.challenge.bank.repository.repository.AccountRepository;
+import com.challenge.bank.repository.repository.CustomerRepository;
+import com.challenge.bank.repository.repository.TransactionRepository;
+import com.challenge.bank.service.mapper.AccountMapper;
+import com.challenge.bank.service.mapper.TransactionMapper;
+import com.challenge.bank.service.model.Account;
+import com.challenge.bank.service.model.Transaction;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
